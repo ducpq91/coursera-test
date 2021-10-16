@@ -1,0 +1,102 @@
+/* HEADER */
+#header-nav {
+	background-color: #5aadd1;
+	border: 1px solid black;
+	border-radius: 0;
+}
+#header-nav .container{
+	margin: 0;
+}
+
+.navbar-brand {
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: -10px;
+}
+.navbar-brand a {
+	color: black;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+.navbar-brand h1 {
+	padding-left: 15px;
+}
+
+.navbar-header .icon-bar {
+	border: 1px solid black;
+	height: 6px;
+	width: 30px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+}
+.navbar-header button.navbar-toggle {
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	height: 45px;
+	width: 45px;
+	border: 1px solid black;
+	padding-left: 7px;
+}
+/* END HEADER */
+
+
+/* MAIN CONTENT */
+#main-content {
+	width: 100%;
+	padding: 0 30px 0 30px;
+}
+#main-content section div {
+	background-color: #5aadd1;
+}
+#main-content h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+#main-content h2 {
+	font-size: 1.5em;
+}
+/* END MAIN CONTENT */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#main-content {
+		padding: 0 90px 0 90px;
+	}
+	#collapsable-nav {
+		background-color: #fcba03;
+		border-top: 1px solid black;
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+		color: black;
+	}
+	#collapsable-nav ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#collapsable-nav li {
+		border: 1px solid black;
+	}
+	#main-content section div {
+		padding: 0 30px 0 30px;
+	}
+}
