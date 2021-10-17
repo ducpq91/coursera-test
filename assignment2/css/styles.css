@@ -49,15 +49,25 @@
 	width: 100%;
 	padding: 0 30px 0 30px;
 }
-#main-content section div {
+#main-content section > div {
+	margin: 0;
+	padding: 0;
+}
+#main-content section > div > div {
 	background-color: #5aadd1;
+	margin: 10px;
+	padding: 5px 15px 25px 15px;
 }
 #main-content h1 {
 	margin-top: 0;
 	margin-bottom: 30px;
 }
-#main-content h2 {
+#main-content h3 {
 	font-size: 1.5em;
+}
+#main-content section div a {
+	float: right;
+	color: #fcba03;
 }
 /* END MAIN CONTENT */
 
